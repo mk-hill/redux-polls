@@ -5,6 +5,7 @@ import { handleInitialData } from '../actions/shared';
 import Dashboard from './Dashboard';
 import Leaderboard from './Leaderboard';
 import AddPoll from './AddPoll';
+import Poll from './Poll';
 
 class App extends Component {
   componentDidMount() {
@@ -15,14 +16,14 @@ class App extends Component {
     return (
       <div>
         <LoadingBar />
-        {this.props.loading ? null : <AddPoll />}
+        {this.props.loading ? null : <Poll match={{ params: { id: '6ni6ok3ym7mf1p33lnez' } }} />}
       </div>
     );
   }
 }
 
-const mapStatetoProps = ({ authedUser }) => ({
+const mapStateToProps = ({ authedUser }) => ({
   loading: authedUser === null,
 });
 
-export default connect(mapStatetoProps)(App);
+export default connect(mapStateToProps)(App);
