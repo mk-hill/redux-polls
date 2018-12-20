@@ -6,6 +6,7 @@
 
 ## Hosted Project
 
+[https://redux-polls.netlify.com/](https://redux-polls.netlify.com/)
 [https://tylermcginnis.com/projects/redux-polls/](https://tylermcginnis.com/projects/redux-polls/)
 
 ## Notes
