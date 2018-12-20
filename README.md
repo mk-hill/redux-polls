@@ -6,7 +6,7 @@
 
 ## Hosted Project
 
-[https://fervent-brahmagupta-449016.netlify.com/](https://fervent-brahmagupta-449016.netlify.com/)
+[https://redux-polls.netlify.com/](https://redux-polls.netlify.com/)
 [https://tylermcginnis.com/projects/redux-polls/](https://tylermcginnis.com/projects/redux-polls/)
 
 ## Notes
